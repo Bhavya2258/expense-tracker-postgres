@@ -27,6 +27,8 @@ accounts (1) ──< transactions >── (1) categories
    ```
 3. Run the reports in `sql/03_reports.sql` from VS Code (SQLTools) or `psql`.
 
+> The seed data is randomly generated, so your numbers will differ from the screenshots below.
+
 ## Sample reports
 
 ### Total spending per month
@@ -66,7 +68,7 @@ Uses `FILTER` to compute income, expenses, and net savings in a single query.
 ## Project structure
 
 ```
-Expense_Tracker/
+expense-tracker-postgres/
 ├── README.md
 ├── docs/        (report screenshots)
 └── sql/
@@ -77,5 +79,5 @@ Expense_Tracker/
 
 ## Skills demonstrated
 
-Schema design, joins, aggregation, `DATE_TRUNC`, `FILTER`, CTEs, views,
+Schema design, joins, aggregation, `DATE_TRUNC`, `FILTER`, views,
 indexing, Docker
